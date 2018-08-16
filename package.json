@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Knarik Manukyan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "isomorphic-fetch": "^2.2.1",
+    "jsonwebtoken": "^8.3.0",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.18.3",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0"
+  }
+}
